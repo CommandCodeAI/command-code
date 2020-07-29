@@ -1,0 +1,15 @@
+{
+  "name": "clai-old",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "clai-old": "./agent.js"
+  },
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
