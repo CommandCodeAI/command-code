@@ -4,6 +4,10 @@ Command code with your taste. Check it out at [CommandCode.ai](https://commandco
 
 > Stop fixing sloppy AI code. Command Code continuously learns your coding taste. Powered by taste-1 applied meta neuro-symbolic AI.
 
+## Docs
+
+Please follow the full documentation at [CommandCode.ai/docs](https://commandcode.ai/docs)
+
 ## Installation
 
 ```bash
