@@ -1,6 +1,6 @@
 # Command Code
 
-Command code with your taste.
+Command code with your taste. Check it out at [CommandCode.ai](https://commandcode.ai)
 
 > Stop fixing sloppy AI code. Command Code continuously learns your coding taste. Powered by taste-1 applied meta neuro-symbolic AI.
 
