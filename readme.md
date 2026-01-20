@@ -1,4 +1,4 @@
-# Command Code
+# [Command Code](https://commandcode.ai)
 
 Command code with your taste. Check it out at [CommandCode.ai](https://commandcode.ai)
 
