@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a bug for Command Code.
+labels: []
+body:
+    - type: markdown
+      attributes:
+          value: |
+              This template is to report bugs for Command Code. If you need help with your own project, feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
+    - type: textarea
+      attributes:
+          label: Description
+          description: A detailed bug description for Command Code and steps to reproduce it. Include the command you ran, OS, and Node.js version.
+          placeholder: |
+              Steps to reproduce...
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Screenshot
+          description: Provide a screenshot of the bug.
+          placeholder: |
+              ...
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Expected Behavior
+          description: Describe the expected behavior you were expecting.
+          placeholder: Expected behavior...
+    - type: textarea
+      attributes:
+          label: Actual Behavior
+          description: Describe the actual behavior that occurred.
+          placeholder: Actual behavior...
+    - type: input
+      attributes:
+          label: Command Code Version
+          description: Run `cmd --version` to get the version.
+          placeholder: 0.0.1
+          validations:
+              required: true
+    - type: dropdown
+      attributes:
+          label: Operating System
+          options:
+              - macOS
+              - Linux
+              - Windows
+          validations:
+              required: true
+    - type: textarea
+      attributes:
+          label: Additional context
+          description: |
+              Any additional information that might help us investigate. Include error logs, screenshots, or environment details.
