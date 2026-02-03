@@ -37,8 +37,8 @@ body:
           label: Command Code Version
           description: Run `cmd --version` to get the version.
           placeholder: 0.0.1
-          validations:
-              required: true
+      validations:
+          required: true
     - type: dropdown
       attributes:
           label: Operating System
@@ -46,8 +46,8 @@ body:
               - macOS
               - Linux
               - Windows
-          validations:
-              required: true
+      validations:
+          required: true
     - type: textarea
       attributes:
           label: Additional context
