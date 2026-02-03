@@ -1,0 +1,25 @@
+name: Feature Request
+description: Propose a new feature for Command Code.
+labels: []
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Use this template to propose new features for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
+    - type: textarea
+      attributes:
+          label: Feature Description
+          description: Describe the feature you are proposing. Include any relevant commands, functionality, or improvements.
+          placeholder: Feature description...
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Use Case
+          description: Explain how this feature would be beneficial.
+          placeholder: Use case...
+    - type: textarea
+      attributes:
+          label: Additional Context
+          description: Any additional information like screenshots and links that might help us understand your request.
+          placeholder: Additional context...

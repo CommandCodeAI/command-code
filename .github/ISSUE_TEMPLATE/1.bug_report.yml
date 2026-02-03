@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a bug for Command Code.
+labels: []
+body:
+    - type: markdown
+      attributes:
+          value: |
+               Use this template to report bugs for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
+    - type: textarea
+      attributes:
+          label: Expected Behavior
+          description: Describe the expected behavior you were expecting.
+          placeholder: Expected behavior...
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Actual Behavior
+          description: Describe the actual behavior that occurred.
+          placeholder: Actual behavior...
+      validations:
+          required: true
+    - type: input
+      id: version
+      attributes:
+          label: Command Code Version
+          description: Run `cmd --version` to get the version.
+          placeholder: 0.0.1
+      validations:
+          required: true
+    - type: dropdown
+      id: os
+      attributes:
+          label: Operating System
+          options:
+              - macOS
+              - Linux
+              - Windows
+      validations:
+          required: true
+    - type: input
+      id: terminal
+      attributes:
+          label: Terminal/IDE
+          description: Which terminal or IDE are you using?
+          placeholder: vscode
+    - type: input
+      id: shell
+      attributes:
+          label: Shell
+          description: Which shell are you using?
+          placeholder: zsh
+    - type: textarea
+      attributes:
+          label: Additional context
+          description: |
+              Any additional information that might help us investigate. Include error logs, screenshots, or environment details.
