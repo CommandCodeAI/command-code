@@ -5,15 +5,7 @@ body:
     - type: markdown
       attributes:
           value: |
-              This template is to report bugs for Command Code. If you need help with your own project, feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
-    - type: textarea
-      attributes:
-          label: Description
-          description: A detailed bug description for Command Code and steps to reproduce it. Include the command you ran, OS, and Node.js version.
-          placeholder: |
-              Steps to reproduce...
-      validations:
-          required: true
+               This template is to report bugs for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
     - type: textarea
       attributes:
           label: Screenshot
@@ -33,6 +25,7 @@ body:
           description: Describe the actual behavior that occurred.
           placeholder: Actual behavior...
     - type: input
+      id: version
       attributes:
           label: Command Code Version
           description: Run `cmd --version` to get the version.
@@ -40,6 +33,7 @@ body:
       validations:
           required: true
     - type: dropdown
+      id: os
       attributes:
           label: Operating System
           options:
@@ -48,6 +42,18 @@ body:
               - Windows
       validations:
           required: true
+    - type: input
+      id: terminal
+      attributes:
+          label: Terminal/IDE
+          description: Which terminal or IDE are you using?
+          placeholder: vscode
+    - type: input
+      id: shell
+      attributes:
+          label: Shell
+          description: Which shell are you using?
+          placeholder: zsh
     - type: textarea
       attributes:
           label: Additional context

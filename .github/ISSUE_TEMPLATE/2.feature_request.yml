@@ -5,7 +5,7 @@ body:
     - type: markdown
       attributes:
           value: |
-              Use this template to propose new features for Command Code. If you need help with your own project, feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
+              Use this template to propose new features for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
     - type: textarea
       attributes:
           label: Feature Description
@@ -21,5 +21,5 @@ body:
     - type: textarea
       attributes:
           label: Additional Context
-          description: Any additional information that might help us understand your request.
+          description: Any additional information like screenshots and links that might help us understand your request.
           placeholder: Additional context...
