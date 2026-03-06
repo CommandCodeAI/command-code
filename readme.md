@@ -1,88 +1,96 @@
-# [Command Code](https://commandcode.ai)
+<p align="center">
+  <img src="https://commandcode.ai/docs/top.png" alt="Command Code terminal preview" width="1100" />
+</p>
 
-Command code with your taste. Check it out at [CommandCode.ai](https://commandcode.ai)
+<p align="center"><strong>The coding agent that learns your coding taste.</strong></p>
 
-> Stop fixing sloppy AI code. Command Code continuously learns your coding taste. Powered by taste-1 applied meta neuro-symbolic AI.
+<p align="center">
+  The first frontier coding agent that both builds software and continuously learns your coding taste. Ships full-stack projects, features, fixes bugs, writes tests, and refactors, all while learning how you write code.
+</p>
 
-## Docs
+<p align="center">
+  <a href="https://www.npmjs.com/package/command-code"><img src="https://img.shields.io/npm/v/command-code?style=flat-square&logo=npm&label=npm&color=7c3aed&labelColor=7c3aed&logoColor=white" alt="npm version" /></a>
+  <a href="https://commandcode.ai/docs"><img src="https://img.shields.io/badge/docs-commandcode.ai-7c3aed?style=flat-square&logo=readthedocs&labelColor=7c3aed&logoColor=white" alt="Docs" /></a>
+  <img src="https://img.shields.io/badge/built%20with-command%20code-7c3aed?style=flat-square&labelColor=7c3aed" alt="Built with Command Code" />
+</p>
 
-Please follow the full documentation at [CommandCode.ai/docs](https://commandcode.ai/docs)
+<p align="center">
+  <a href="https://commandcode.ai/docs/quickstart"><strong>Quickstart</strong></a>
+  ·
+  <a href="https://commandcode.ai/docs">Docs</a>
+  ·
+  <a href="https://commandcode.ai/docs/workflows">Workflows</a>
+  ·
+  <a href="https://commandcode.ai/docs/taste">Taste</a>
+  ·
+  <a href="https://commandcode.ai/launch">Launch</a>
+  ·
+  <a href="https://commandcode.ai/discord">Discord</a>
+</p>
 
-## Installation
+> Every accept, reject, and edit becomes a signal that shapes your taste profile.
+
+## Why Command Code
+
+- **Continuously Learning** - every accept, reject, and edit becomes a signal that shapes your taste profile.
+- **Meta Neuro-Symbolic AI** - `taste-1` enforces the invisible logic of your choices and coding taste.
+- **Interactive mode** - slash commands, input modes, and interactive features in Command Code sessions.
+- **Share with your team** - portable via `npx taste push/pull`. Rules decay. Taste compounds.
+
+Want the deeper story behind Taste and the correction-loop problem? Read our [launch announcement](https://commandcode.ai/launch).
+
+## Quickstart
+
+Install Command Code 
 
 ```bash
 npm i -g command-code
 ```
 
-## Usage
-
-Start an interactive chat session:
+Then start it in your project:
 
 ```bash
+cd your-project
 cmd
 ```
 
-Use `cmd --help` to see all available options.
+Need the full onboarding flow? Start with the [quickstart guide](https://commandcode.ai/docs/quickstart).
 
-## What is Taste?
+## Explore the docs
 
-Taste learning automatically learns your coding preferences and style from conversations. It analyzes patterns in your corrections and stated preferences, storing them in project-specific files.
+### Taste
 
-**What Taste learns:**
+The `taste-1` model is the core of our taste architecture: it learns from you, thinks like you, and grows with you.
 
-- Your coding style preferences (const vs let, functional vs class components)
-- Framework and library choices
-- Code structure and patterns you prefer
-- Testing and documentation practices
-- Communication style preferences
+Learn more: [Taste docs](https://commandcode.ai/docs/taste)
 
-**How it works:**
+### Interactive mode
 
-- Learns from explicit preferences ("Please always use TypeScript")
-- Learns from repeated corrections you make
-- Creates rules with confidence scores (0.0-1.0)
-- Only applies rules with confidence > 0.3
-- Organizes learnings by category when you have more than 5
+Interactive mode provides keyboard shortcuts, input modes, and interactive features in Command Code sessions. Type `/` to open the command menu, use `!` for Bash mode, and `@` for file path mention autocomplete.
 
-Taste learning is **enabled by default**. Learnings are automatically stored in `.commandcode/taste/taste.md` with confidence scores. As it grows, learnings automatically split into multiple files and folders by category (e.g., `cli/`, `typescript/`, `architecture/`). Use `/taste` in the CLI to toggle it on or off.
+Learn more: [Interactive Mode](https://commandcode.ai/docs/core-concepts/interactive-mode)
 
-**Try it:** State your preferences or make corrections during chat to see taste learning in action!
+### Workflows
 
-## Interactive Commands
+Step-by-step recipes for everyday tasks. Each workflow shows a concrete scenario, the prompts to use, and what to expect.
 
-Available during chat sessions:
+Learn more: [Workflows](https://commandcode.ai/docs/workflows)
 
-- `/login` - Authenticate with CommandCode via browser (zero-copy auth)
-- `/logout` - Sign out from CommandCode
-- `/taste` - Toggle taste learning on or off
-- `/share` - Create a shareable link for the conversation
-- `/unshare` - Stop sharing the conversation
-- `/resume` - Resume a past conversation
-- `/memory` - Manage project memory (persistent context)
-- `/clear` - Clear the conversation history
+## Choose your next steps
 
-## Authentication
+| Goal | Best next link |
+| --- | --- |
+| Install and run your first session | [Quickstart](https://commandcode.ai/docs/quickstart) |
+| Understand how Taste works | [Taste](https://commandcode.ai/docs/taste) |
+| Learn slash commands and shortcuts | [Interactive Mode](https://commandcode.ai/docs/core-concepts/interactive-mode) |
+| See flags, subcommands, and command reference | [CLI Reference](https://commandcode.ai/docs/reference/cli) |
+| Browse practical day-to-day usage patterns | [Workflows](https://commandcode.ai/docs/workflows) |
 
-CommandCode uses browser-based authentication for a secure, seamless login experience:
+## Docs and community
 
-1. Run `/login` in the CLI
-2. Your browser opens automatically to CommandCode Studio
-3. Click "Approve" to authorize the CLI
-4. You're authenticated! The CLI receives your credentials automatically
+- Docs: [commandcode.ai/docs](https://commandcode.ai/docs)
+- Discord: [commandcode.ai/discord](https://commandcode.ai/discord)
+- Launch announcement: [commandcode.ai/launch](https://commandcode.ai/launch)
+- Feedback: Use `/feedback` command to report issues, or open a [GitHub issue](https://github.com/CommandCodeAI/command-code/issues/new/choose).
 
-No need to copy-paste API keys - authentication happens securely in the background.
-
-## Try These Examples
-
-- Build a chrome extension to snooze a tab for 5s, 1min, and 10mins.
-- Analyze this repo and suggest three high impact PRs
-- Build a zero-config, single-file Node.js/TypeScript CLI named `passgen` that generates a random secure password.
-- Build a modern React financial dashboard using shadcn/ui components with stock prices, market indices, and currency converter.
-
-## Beta Release & Feedback
-
-This is a beta version, and we are actively working on improvements. Expect some rough edges and occasional bugs as we refine the experience. Your feedback is invaluable. Join our Discord community: https://commandcode.ai/discord
-
-## Author
-
-[Ahmad Awais](https://x.com/MrAhmadAwais)
+**Built with [Command Code](https://commandcode.ai).**
