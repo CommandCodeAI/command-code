@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/command-code"><img src="https://img.shields.io/npm/v/command-code?style=flat-square&logo=npm&label=npm&color=7c3aed&labelColor=7c3aed&logoColor=white" alt="npm version" /></a>
-  <a href="https://commandcode.ai/docs"><img src="https://img.shields.io/badge/docs-commandcode.ai-7c3aed?style=flat-square&logo=readthedocs&labelColor=7c3aed&logoColor=white" alt="Docs" /></a>
-  <img src="https://img.shields.io/badge/built%20with-command%20code-7c3aed?style=flat-square&labelColor=7c3aed" alt="Built with Command Code" />
+  <a href="https://www.npmjs.com/package/command-code"><img src="https://img.shields.io/npm/v/command-code?style=flat-square&logo=npm&label=npm&color=18181b&labelColor=18181b&logoColor=white" alt="npm version" /></a>
+  <a href="https://commandcode.ai/docs"><img src="https://img.shields.io/badge/docs-commandcode.ai-18181b?style=flat-square&logo=readthedocs&labelColor=18181b&logoColor=white" alt="Docs" /></a>
+  <img src="https://img.shields.io/badge/built%20with-command%20code-18181b?style=flat-square&labelColor=18181b" alt="Built with Command Code" />
 </p>
 
 <p align="center">
@@ -27,8 +27,6 @@
   ·
   <a href="https://commandcode.ai/discord">Discord</a>
 </p>
-
-> Every accept, reject, and edit becomes a signal that shapes your taste profile.
 
 ## Why Command Code
 
