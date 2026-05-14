@@ -57,12 +57,6 @@ body:
       validations:
           required: true
     - type: input
-      id: os-version
-      attributes:
-          label: Operating System Version
-          description: Include the distro, release, architecture, or Windows/macOS version if known.
-          placeholder: macOS 26.4.1 (arm64), Ubuntu 24.04, Windows 11
-    - type: input
       id: terminal
       attributes:
           label: Terminal/IDE
@@ -78,4 +72,4 @@ body:
       attributes:
           label: Additional context
           description: |
-              Anything else that might help us investigate, such as frequency, workaround, when it started, links to related issues, or whether it reproduces in a fresh project.
+              Any additional information that might help us investigate. Include error logs, screenshots, or environment details.
