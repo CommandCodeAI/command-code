@@ -23,3 +23,12 @@ body:
           label: Additional Context
           description: Any additional information like screenshots and links that might help us understand your request.
           placeholder: Additional context...
+    - type: dropdown
+      id: priority
+      attributes:
+            label: How important is this to you?
+            description: This helps us understand urgency and customer impact.
+            options:
+                - Nice to have
+                - Important for my workflow
+                - Blocking adoption or production use

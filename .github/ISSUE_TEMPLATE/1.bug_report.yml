@@ -8,6 +8,13 @@ body:
                Use this template to report bugs for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
     - type: textarea
       attributes:
+          label: Summary
+          description: Briefly describe the issue and how it affects your workflow.
+          placeholder: Command Code hangs after /compact and I cannot send the queued message.
+      validations:
+          required: true
+    - type: textarea
+      attributes:
           label: Expected Behavior
           description: Describe the expected behavior you were expecting.
           placeholder: Expected behavior...
@@ -18,6 +25,17 @@ body:
           label: Actual Behavior
           description: Describe the actual behavior that occurred.
           placeholder: Actual behavior...
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Steps to reproduce the issue
+          description: Describe the actual steps to reproduce the issue.
+          placeholder: |
+              1. ...
+              2. ...
+              3. ...
+              4. ...
       validations:
           required: true
     - type: input
