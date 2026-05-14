@@ -1,59 +1,34 @@
 name: Feature Request
-description: Suggest an improvement or new capability for Command Code.
+description: Propose a new feature for Command Code.
 labels: []
 body:
     - type: markdown
       attributes:
           value: |
-              Thanks for sharing ideas for Command Code, the terminal-based coding agent. Clear customer context helps us prioritize and design features that fit real workflows.
-
-              If you want to discuss the idea first, feel free to [start a new thread in our Discord forum](https://commandcode.ai/discord).
+              Use this template to propose new features for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
     - type: textarea
       attributes:
-          label: Problem or workflow
-          description: What are you trying to accomplish, and what currently makes it difficult?
-          placeholder: I use Command Code from an automated orchestrator, but I cannot capture token usage from non-interactive runs.
+          label: Feature Description
+          description: Describe the feature you are proposing. Include any relevant commands, functionality, or improvements.
+          placeholder: Feature description...
       validations:
           required: true
     - type: textarea
       attributes:
-          label: Proposed solution
-          description: Describe the behavior or API you would like Command Code to provide.
-          placeholder: Add `commandcode -p --output-format json` with final usage, model, and provider fields.
-      validations:
-          required: true
-    - type: textarea
-      attributes:
-          label: Use case and impact
-          description: Who would benefit, how often would they use it, and what would it unblock?
-          placeholder: This would let automation track cost and compare Command Code against other CLI agents for every run.
-      validations:
-          required: true
-    - type: textarea
-      attributes:
-          label: Alternatives or workarounds
-          description: What have you tried instead, and why is it not enough?
-          placeholder: We currently log usage as unknown because estimating tokens would be inaccurate.
-    - type: textarea
-      attributes:
-          label: Example usage
-          description: If applicable, show the command, slash command, output shape, or UI flow you imagine.
-          placeholder: |
-              commandcode -p --output-format json "Implement the task"
-
-              Expected final JSON line:
-              { "model": "...", "tokens": { "input": 0, "output": 0 } }
-    - type: dropdown
-      id: priority
-      attributes:
-          label: How important is this to you?
-          description: This helps us understand urgency and customer impact.
-          options:
-              - Nice to have
-              - Important for my workflow
-              - Blocking adoption or production use
+          label: Use Case
+          description: Explain how this feature would be beneficial.
+          placeholder: Use case...
     - type: textarea
       attributes:
           label: Additional Context
-          description: Any additional information like screenshots, links, related issues, comparisons to other tools, or implementation constraints.
+          description: Any additional information like screenshots and links that might help us understand your request.
           placeholder: Additional context...
+    - type: dropdown
+      id: priority
+      attributes:
+            label: How important is this to you?
+            description: This helps us understand urgency and customer impact.
+            options:
+                - Nice to have
+                - Important for my workflow
+                - Blocking adoption or production use

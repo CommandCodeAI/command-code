@@ -1,13 +1,11 @@
 name: Bug report
-description: Report something that is not working as expected in Command Code.
+description: Report a bug for Command Code.
 labels: []
 body:
     - type: markdown
       attributes:
           value: |
-              Thanks for helping us improve Command Code, the terminal-based coding agent. The more detail you can share, the faster we can understand and fix the issue.
-
-              Before filing, please check that you are using the latest version and include exact commands, screenshots, logs, or request IDs when available. If you need help confirming whether something is a bug, feel free to [start a new thread in our Discord forum](https://commandcode.ai/discord).
+               Use this template to report bugs for Command Code. Feel free to [start a new thread in our discord forum](https://commandcode.ai/discord).
     - type: textarea
       attributes:
           label: Summary
@@ -18,34 +16,34 @@ body:
     - type: textarea
       attributes:
           label: Expected Behavior
-          description: What did you expect Command Code to do?
-          placeholder: The queued message should send automatically after /compact finishes.
+          description: Describe the expected behavior you were expecting.
+          placeholder: Expected behavior...
       validations:
           required: true
     - type: textarea
       attributes:
           label: Actual Behavior
-          description: What actually happened? Include exact error messages, request IDs, or screenshots if you have them.
-          placeholder: The message stays queued and pressing Enter does not send it.
+          description: Describe the actual behavior that occurred.
+          placeholder: Actual behavior...
       validations:
           required: true
     - type: textarea
       attributes:
           label: Steps to reproduce the issue
-          description: Provide the smallest set of steps that reliably reproduces the issue. Include commands, slash commands, prompts, config, files, or MCP setup needed to trigger it.
+          description: Describe the actual steps to reproduce the issue.
           placeholder: |
-              1. Run `commandcode` in a repository with ...
-              2. Type `/compact` while ...
-              3. Queue a follow-up message ...
-              4. Observe that ...
+              1. ...
+              2. ...
+              3. ...
+              4. ...
       validations:
           required: true
     - type: input
       id: version
       attributes:
           label: Command Code Version
-          description: Run `commandcode --version` or `cmd --version` and paste the exact output.
-          placeholder: commandcode 0.25.13
+          description: Run `cmd --version` to get the version.
+          placeholder: 0.0.1
       validations:
           required: true
     - type: dropdown
@@ -68,32 +66,14 @@ body:
       id: terminal
       attributes:
           label: Terminal/IDE
-          description: Which terminal app or IDE terminal are you using?
-          placeholder: VS Code integrated terminal, iTerm2, Windows Terminal, Hyper
+          description: Which terminal or IDE are you using?
+          placeholder: vscode
     - type: input
       id: shell
       attributes:
           label: Shell
           description: Which shell are you using?
-          placeholder: zsh, bash, fish, PowerShell 5.1, Git Bash
-    - type: input
-      id: install-method
-      attributes:
-          label: Installation Method
-          description: How did you install or run Command Code?
-          placeholder: npm install -g command-code, npx command-code, bundled binary
-    - type: input
-      id: node-version
-      attributes:
-          label: Node.js Version
-          description: If relevant, run `node --version` and paste the exact output.
-          placeholder: v25.9.0
-    - type: textarea
-      id: configuration
-      attributes:
-          label: Relevant configuration
-          description: Share any relevant settings, flags, MCP servers, model/provider, permission mode, or project setup. Do not include secrets, API keys, or private data.
-          placeholder: I ran with `--yolo`; MCP server configured via ...; model/provider is ...
+          placeholder: zsh
     - type: textarea
       attributes:
           label: Additional context
