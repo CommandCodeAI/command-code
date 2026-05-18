@@ -1,5 +1,6 @@
 name: Feature Request
 description: Propose a new feature for Command Code.
+type: Feature
 labels: []
 body:
     - type: markdown
