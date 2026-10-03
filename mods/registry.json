@@ -208,6 +208,16 @@
 				"session"
 			],
 			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "commandcode-hud-zh",
+			"source": "Albert-Lsk/commandcode-hud-zh",
+			"description": "Chinese-language context HUD showing token usage, compaction health, large-result alerts, and session spend. Adapts to narrow terminals.",
+			"author": { "name": "ALSKai", "github": "Albert-Lsk" },
+			"repo": "https://github.com/Albert-Lsk/commandcode-hud-zh",
+			"kinds": ["command", "hook", "flag"],
+			"tags": ["hud", "context", "monitoring", "chinese"],
+			"addedAt": "2026-10-03"
 		}
 	]
 }
