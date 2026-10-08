@@ -17,10 +17,10 @@
 		},
 		{
 			"name": "cmd-compaction-guard",
-			"source": "ahrazzle/cmd-compaction-guard",
+			"source": "aska-digital/cmd-compaction-guard",
 			"description": "Detects compaction-summary bloat in session transcripts (stacked summaries that compound until context explodes and every request 400s) and repairs it with /compact-repair.",
 			"author": { "name": "Ahraz Arifuddin", "github": "ahrazzle" },
-			"repo": "https://github.com/ahrazzle/cmd-compaction-guard",
+			"repo": "https://github.com/aska-digital/cmd-compaction-guard",
 			"kinds": ["hook", "command", "flag"],
 			"tags": ["context", "compaction", "session", "repair"],
 			"addedAt": "2026-10-08"
