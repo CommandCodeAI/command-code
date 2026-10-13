@@ -16,13 +16,206 @@
 			"addedAt": "2026-07-22"
 		},
 		{
+			"name": "cmd-mod-review",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Evidence-based /review-changes for bugs, regressions, and test gaps. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-standup",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Draft /standup updates from recent commits and working changes. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-pr-draft",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Draft a PR title and body with /pr-draft using actual Git changes. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-release-notes",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Write /release-notes from a base ref, separating uncommitted work. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-test-plan",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Build a concrete regression /test-plan from changed code. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-git-summary",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Show /git-summary without spending a model call. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"git"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-context-meter",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Show measured context use in the footer and with /context-meter. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"session"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-run-stats",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Track elapsed time and completed/failed tools with /run-stats. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"session"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-bookmarks",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Save and return to labelled session points with /bookmark and /jump-bookmark. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"productivity",
+				"session"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-focus",
+			"source": "ObaidNadeem/cmd-mods",
+			"description": "Keep work scoped with /focus, a session-persistent prompt reminder. Part of the cmd-mods collection; installing adds all 10 mods.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mods",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"productivity",
+				"session"
+			],
+			"addedAt": "2026-10-13"
+		},
+		{
 			"name": "cmd-compaction-guard",
 			"source": "aska-digital/cmd-compaction-guard",
 			"description": "Detects compaction-summary bloat in session transcripts (stacked summaries that compound until context explodes and every request 400s) and repairs it with /compact-repair.",
-			"author": { "name": "Ahraz Arifuddin", "github": "ahrazzle" },
+			"author": {
+				"name": "Ahraz Arifuddin",
+				"github": "ahrazzle"
+			},
 			"repo": "https://github.com/aska-digital/cmd-compaction-guard",
-			"kinds": ["hook", "command", "flag"],
-			"tags": ["context", "compaction", "session", "repair"],
+			"kinds": [
+				"hook",
+				"command",
+				"flag"
+			],
+			"tags": [
+				"context",
+				"compaction",
+				"session",
+				"repair"
+			],
 			"addedAt": "2026-10-08"
 		}
 	]
