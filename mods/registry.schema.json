@@ -84,6 +84,10 @@
 						"type": "boolean",
 						"description": "Maintained by the Command Code team."
 					},
+					"featured": {
+						"type": "boolean",
+						"description": "Pinned to the top of the hub. Maintainer-only."
+					},
 					"addedAt": {
 						"type": "string",
 						"format": "date",
