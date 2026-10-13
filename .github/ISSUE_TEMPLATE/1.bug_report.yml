@@ -43,6 +43,51 @@ body:
               4. ...
       validations:
           required: true
+    - type: dropdown
+      id: surface
+      attributes:
+          label: Surface / entry path
+          description: Which entry path triggers the bug? (ACP and Chat share the `cmd acp` path.)
+          options:
+              - Interactive TUI (cmd)
+              - ACP (cmd acp / Zed / agent client)
+              - Chat (AO Chat / IDE integration)
+              - Headless (cmd -p)
+              - Other
+      validations:
+          required: true
+    - type: textarea
+      id: exact-command
+      attributes:
+          label: Exact command
+          description: Paste the full command including all flags, exactly as run.
+          placeholder: |
+              cmd acp --mod ./x.ts --trust
+      validations:
+          required: false
+    - type: textarea
+      id: repro-mod
+      attributes:
+          label: Minimal repro (mod / config)
+          description: Smallest mod file, flag, or config that triggers it. Keep it under 20 lines.
+          placeholder: |
+              export default function (cmd) {
+                cmd.hooks({ appendSystemPrompt: () => 'REPRO-SENTINEL' })
+              }
+      validations:
+          required: false
+    - type: textarea
+      id: debug-log
+      attributes:
+          label: Debug log excerpt
+          description: |
+              Rerun with DEBUG=true, then paste only the newest lines from ~/.commandcode/logs/command.log (the `args:` line plus what follows). Redact secrets.
+          placeholder: |
+              args: acp --mod ./x.ts --trust
+              [cmd] subcommand: acp
+              ...
+      validations:
+          required: false
     - type: input
       id: version
       attributes:
