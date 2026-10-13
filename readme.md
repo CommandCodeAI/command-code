@@ -92,3 +92,13 @@ Learn more: [Workflows](https://commandcode.ai/docs/workflows)
 - Feedback: Use `/feedback` command to report issues, or open a [GitHub issue](https://github.com/CommandCodeAI/command-code/issues/new/choose).
 
 **Built with [Command Code](https://commandcode.ai).**
+
+## Community mods
+
+Install [ten useful mods](./mods/community/README.md) for code review, standups, PR drafts, release notes, test planning, Git summaries, context usage, run stats, session bookmarks, and focused work:
+
+```sh
+cmd mods add CommandCodeAI/command-code -g
+```
+
+The bundle is listed in the [mods hub](https://commandcode.ai/mods). See the [registry guide](./mods/README.md) to submit your own mod.

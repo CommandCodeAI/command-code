@@ -1,0 +1,40 @@
+{
+	"name": "command-code-community-mods",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"description": "Ten useful Command Code mods maintained in the public community repository.",
+	"keywords": [
+		"cmd-mod",
+		"cmd-mod-command",
+		"cmd-mod-hook"
+	],
+	"repository": "https://github.com/CommandCodeAI/command-code",
+	"commandcode": {
+		"mods": [
+			"./mods/community/cmd-mod-review.ts",
+			"./mods/community/cmd-mod-standup.ts",
+			"./mods/community/cmd-mod-pr-draft.ts",
+			"./mods/community/cmd-mod-release-notes.ts",
+			"./mods/community/cmd-mod-test-plan.ts",
+			"./mods/community/cmd-mod-git-summary.ts",
+			"./mods/community/cmd-mod-context-meter.ts",
+			"./mods/community/cmd-mod-run-stats.ts",
+			"./mods/community/cmd-mod-bookmarks.ts",
+			"./mods/community/cmd-mod-focus.ts"
+		]
+	},
+	"scripts": {
+		"test": "vitest run",
+		"typecheck": "tsc --noEmit",
+		"lint": "biome check mods/community",
+		"build": "tsup mods/community/cmd-mod-*.ts --format esm --out-dir dist --clean"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.15",
+		"typescript": "^5.9.2",
+		"vitest": "^4.1.11",
+		"tsup": "^8.5.0"
+	},
+	"packageManager": "pnpm@11.25.0"
+}

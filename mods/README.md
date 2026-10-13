@@ -44,3 +44,7 @@ against [`registry.schema.json`](./registry.schema.json).
 `official` and the top-level `hidden` list are maintainer-only — leave them out of your PR.
 
 Keep the array valid JSON (no trailing commas) and one mod per PR where you can, so review stays quick.
+
+## Included community mods
+
+[Ten useful mods](./community/README.md) live in this repository. Install the bundle once with `cmd mods add CommandCodeAI/command-code -g`, then enable or disable its individual mods by name. The ten catalog rows share this source; they are not separate npm packages.

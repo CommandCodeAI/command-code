@@ -7,13 +7,146 @@
 			"name": "cmd-mod-hi",
 			"source": "cmd-mod-hi",
 			"description": "Roasts you every time you greet your agent with \"hi\". One transformInput hook plus a renderer, and a /hi-stats command that tallies the damage.",
-			"author": { "name": "Ahmad Awais", "github": "ahmadawais" },
+			"author": {
+				"name": "Ahmad Awais",
+				"github": "ahmadawais"
+			},
 			"repo": "https://github.com/ahmadawais/cmd-mod-hi",
 			"npm": "cmd-mod-hi",
 			"kinds": ["hook", "command", "renderer"],
 			"tags": ["fun", "example"],
 			"official": true,
 			"addedAt": "2026-07-22"
+		},
+		{
+			"name": "cmd-mod-review",
+			"source": "CommandCodeAI/command-code",
+			"description": "Evidence-based /review-changes for bugs, regressions, and test gaps. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-standup",
+			"source": "CommandCodeAI/command-code",
+			"description": "Draft /standup updates from recent commits and working changes. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-pr-draft",
+			"source": "CommandCodeAI/command-code",
+			"description": "Draft a PR title and body with /pr-draft using actual Git changes. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-release-notes",
+			"source": "CommandCodeAI/command-code",
+			"description": "Write /release-notes from a base ref, separating uncommitted work. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-test-plan",
+			"source": "CommandCodeAI/command-code",
+			"description": "Build a concrete regression /test-plan from changed code. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-git-summary",
+			"source": "CommandCodeAI/command-code",
+			"description": "Show /git-summary without spending a model call. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "git"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-context-meter",
+			"source": "CommandCodeAI/command-code",
+			"description": "Show measured context use in the footer and with /context-meter. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "session"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-run-stats",
+			"source": "CommandCodeAI/command-code",
+			"description": "Track elapsed time and completed/failed tools with /run-stats. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "session"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-bookmarks",
+			"source": "CommandCodeAI/command-code",
+			"description": "Save and return to labelled session points with /bookmark and /jump-bookmark. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command"],
+			"tags": ["productivity", "community-bundle", "session"],
+			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "cmd-mod-focus",
+			"source": "CommandCodeAI/command-code",
+			"description": "Keep work scoped with /focus, a session-persistent prompt reminder. Included in the community bundle; installing adds all 10 mods.",
+			"author": {
+				"name": "Command Code",
+				"github": "CommandCodeAI"
+			},
+			"repo": "https://github.com/CommandCodeAI/command-code",
+			"kinds": ["command", "hook"],
+			"tags": ["productivity", "community-bundle", "session"],
+			"addedAt": "2026-10-13"
 		}
 	]
 }
