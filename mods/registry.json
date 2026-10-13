@@ -4,6 +4,19 @@
 	"hidden": [],
 	"mods": [
 		{
+			"name": "cmd-mod-jev-nudge",
+			"source": "cmd-mod-jev-nudge",
+			"description": "Agents stop too early. At every stop this mod asks Jev whether a nudge would help, and keeps the agent going when work is left. It won't nudge when the agent is waiting on you.",
+			"author": { "name": "Ahmad Awais", "github": "ahmadawais" },
+			"repo": "https://github.com/CommandCodeAI/cmd-mod-jev-nudge",
+			"npm": "cmd-mod-jev-nudge",
+			"kinds": ["hook", "flag"],
+			"tags": ["jev", "stop-hook", "agent"],
+			"official": true,
+			"featured": true,
+			"addedAt": "2026-09-22"
+		},
+		{
 			"name": "cmd-mod-hi",
 			"source": "cmd-mod-hi",
 			"description": "Roasts you every time you greet your agent with \"hi\". One transformInput hook plus a renderer, and a /hi-stats command that tallies the damage.",

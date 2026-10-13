@@ -41,6 +41,6 @@ against [`registry.schema.json`](./registry.schema.json).
 | `tags` | no | lowercase slugs, searchable |
 | `addedAt` | no | `YYYY-MM-DD`, used for the "Newest" sort |
 
-`official` and the top-level `hidden` list are maintainer-only — leave them out of your PR.
+`official`, `featured`, and the top-level `hidden` list are maintainer-only — leave them out of your PR.
 
 Keep the array valid JSON (no trailing commas) and one mod per PR where you can, so review stays quick.
