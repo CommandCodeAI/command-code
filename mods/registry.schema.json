@@ -80,6 +80,10 @@
 						"uniqueItems": true,
 						"items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
 					},
+					"featured": {
+						"type": "boolean",
+						"description": "Editorial pick pinned above the sorted list on the Mods hub."
+					},
 					"official": {
 						"type": "boolean",
 						"description": "Maintained by the Command Code team."

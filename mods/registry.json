@@ -4,6 +4,28 @@
 	"hidden": [],
 	"mods": [
 		{
+		  "name": "cmd-mod-jev-nudge",
+		  "source": "cmd-mod-jev-nudge",
+		  "description": "Keeps your agent going when Jev detects unfinished work. Stops when it needs your input or another nudge makes no progress.",
+		  "author": {
+		    "name": "Ahmad Awais",
+		    "github": "ahmadawais"
+		  },
+		  "repo": "https://github.com/CommandCodeAI/cmd-mod-jev-nudge",
+		  "npm": "cmd-mod-jev-nudge",
+		  "kinds": [
+		    "hook",
+		    "flag"
+		  ],
+		  "tags": [
+		    "jev",
+		    "productivity",
+		    "agent"
+		  ],
+		  "featured": true,
+		  "addedAt": "2026-10-13"
+		},
+		{
 			"name": "cmd-mod-hi",
 			"source": "cmd-mod-hi",
 			"description": "Roasts you every time you greet your agent with \"hi\". One transformInput hook plus a renderer, and a /hi-stats command that tallies the damage.",

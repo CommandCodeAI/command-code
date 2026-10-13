@@ -41,6 +41,8 @@ against [`registry.schema.json`](./registry.schema.json).
 | `tags` | no | lowercase slugs, searchable |
 | `addedAt` | no | `YYYY-MM-DD`, used for the "Newest" sort |
 
-`official` and the top-level `hidden` list are maintainer-only — leave them out of your PR.
+`featured`, `official`, and the top-level `hidden` list are maintainer-only — leave them out of your PR.
+
+`featured` pins an editorial pick above the sorted results on the hub. Search still filters featured entries.
 
 Keep the array valid JSON (no trailing commas) and one mod per PR where you can, so review stays quick.
