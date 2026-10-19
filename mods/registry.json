@@ -224,7 +224,7 @@
 			"source": "cmd-mod-fuzzy-search",
 			"description": "Fast, frecency-ranked fuzzy file and content search backed by FFF",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-fuzzy-search",
@@ -245,7 +245,7 @@
 			"source": "cmd-mod-lint-feedback",
 			"description": "Run linters and type checkers after every edit and feed the problems back to the agent",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-lint-feedback",
@@ -267,7 +267,7 @@
 			"source": "cmd-mod-notify",
 			"description": "Desktop notifications and sounds when the agent finishes, fails, or needs you",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-notify",
@@ -289,7 +289,7 @@
 			"source": "cmd-mod-output-trimmer",
 			"description": "Fewer tokens on tool output: rtk command rewriting and compaction of build, test, git, lint, and search output",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-output-trimmer",
@@ -310,7 +310,7 @@
 			"source": "cmd-mod-powerline-status",
 			"description": "A powerline-style status row for Command Code: model, effort, path, git, context, and tokens",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-powerline-status",
@@ -331,7 +331,7 @@
 			"source": "cmd-mod-rule-compaction",
 			"description": "Compact long conversations by rules, with no model call, keeping the prompt cache intact",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rule-compaction",
@@ -353,7 +353,7 @@
 			"source": "cmd-mod-rules-warden",
 			"description": "Hold writes that break your project rules, and send unproven \"done\" claims back for a check",
 			"author": {
-				"name": "Ahmad Bilal",
+				"name": "Bilal",
 				"github": "ahmadbilaldev"
 			},
 			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rules-warden",
