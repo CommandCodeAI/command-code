@@ -218,6 +218,16 @@
 			"kinds": ["command", "hook", "flag"],
 			"tags": ["hud", "context", "monitoring", "chinese"],
 			"addedAt": "2026-10-03"
+		},
+		{
+			"name": "cmux-notify",
+			"source": "Hashimlokasher/cmd-mod-cmux-notify",
+			"description": "cmux notifications for Command Code: a banner when a turn finishes, and an alert when a permission prompt has been waiting for 8 seconds.",
+			"author": { "name": "Hashim Lokasher", "github": "Hashimlokasher" },
+			"repo": "https://github.com/Hashimlokasher/cmd-mod-cmux-notify",
+			"kinds": ["hook"],
+			"tags": ["cmux", "notifications", "macos", "permissions"],
+			"addedAt": "2026-10-19"
 		}
 	]
 }
