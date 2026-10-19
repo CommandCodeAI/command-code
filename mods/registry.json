@@ -220,6 +220,156 @@
 			"addedAt": "2026-10-03"
 		},
 		{
+			"name": "cmd-mod-fuzzy-search",
+			"source": "cmd-mod-fuzzy-search",
+			"description": "Fast, frecency-ranked fuzzy file and content search backed by FFF",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-fuzzy-search",
+			"npm": "cmd-mod-fuzzy-search",
+			"kinds": [
+				"tool",
+				"command"
+			],
+			"tags": [
+				"search",
+				"files",
+				"fuzzy"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-lint-feedback",
+			"source": "cmd-mod-lint-feedback",
+			"description": "Run linters and type checkers after every edit and feed the problems back to the agent",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-lint-feedback",
+			"npm": "cmd-mod-lint-feedback",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"lint",
+				"diagnostics",
+				"typecheck"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-notify",
+			"source": "cmd-mod-notify",
+			"description": "Desktop notifications and sounds when the agent finishes, fails, or needs you",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-notify",
+			"npm": "cmd-mod-notify",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"notifications",
+				"sound",
+				"desktop"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-output-trimmer",
+			"source": "cmd-mod-output-trimmer",
+			"description": "Fewer tokens on tool output: rtk command rewriting and compaction of build, test, git, lint, and search output",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-output-trimmer",
+			"npm": "cmd-mod-output-trimmer",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"tokens",
+				"output",
+				"rtk"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-powerline-status",
+			"source": "cmd-mod-powerline-status",
+			"description": "A powerline-style status row for Command Code: model, effort, path, git, context, and tokens",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-powerline-status",
+			"npm": "cmd-mod-powerline-status",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"statusline",
+				"powerline",
+				"ui"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-rule-compaction",
+			"source": "cmd-mod-rule-compaction",
+			"description": "Compact long conversations by rules, with no model call, keeping the prompt cache intact",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rule-compaction",
+			"npm": "cmd-mod-rule-compaction",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"compaction",
+				"context",
+				"tokens"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-rules-warden",
+			"source": "cmd-mod-rules-warden",
+			"description": "Hold writes that break your project rules, and send unproven \"done\" claims back for a check",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rules-warden",
+			"npm": "cmd-mod-rules-warden",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"rules",
+				"guardrails",
+				"verification"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
 			"name": "cmux-notify",
 			"source": "Hashimlokasher/cmd-mod-cmux-notify",
 			"description": "cmux notifications for Command Code: a banner when a turn finishes, and an alert when a permission prompt is waiting.",
