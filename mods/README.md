@@ -4,10 +4,11 @@
 [mods hub](https://commandcode.ai/mods). The hub reads it live, so a merged PR here lists
 your mod within minutes — no website deploy.
 
-Two ways a mod gets listed:
-
-1. **Publish to npm with the `cmd-mod` keyword** — it is discovered automatically, no PR needed.
-2. **Open a PR against `registry.json`** — for git-only mods, or to add richer metadata. This is that path.
+Every listed mod has a reviewed entry in `registry.json`. Publish your mod to npm
+or GitHub, then open a PR against this file. Publishing an npm package with the
+`cmd-mod` keyword helps maintainers discover it for review; it does not list it
+automatically. Existing GitHub entries continue to load from the file without
+an npm review or a website deployment.
 
 ## Add your mod
 
@@ -37,10 +38,17 @@ against [`registry.schema.json`](./registry.schema.json).
 | `author` | yes | `{ "name": "…" }` required; optional `github` / `url` link the name |
 | `kinds` | yes | one or more of `tool` `command` `hook` `provider` `renderer` `flag` |
 | `repo` | no | a GitHub URL also enables the star count |
-| `npm` | no | links the entry to its npm package for live download counts |
+| `npm` | no | names its published npm package for live metadata and download counts |
 | `tags` | no | lowercase slugs, searchable |
 | `addedAt` | no | `YYYY-MM-DD`, used for the "Newest" sort |
 
-`official` and the top-level `hidden` list are maintainer-only — leave them out of your PR.
+`official`, `featured`, and the top-level `hidden` list are maintainer-only — leave them out of your PR.
 
 Keep the array valid JSON (no trailing commas) and one mod per PR where you can, so review stays quick.
+
+For an npm mod, set both `source` and `npm` to the full package name, including
+its scope. Give scoped packages a separate unique lowercase `name` matching the
+schema. The entry supplies the description, author, categories, and tags; npm
+adds the latest version, publish date, and monthly downloads. A GitHub `repo`
+adds its star count. Maintainers review the published package code before
+listing it. Review is not a sandbox or a guarantee about future releases.

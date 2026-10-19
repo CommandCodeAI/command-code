@@ -1,7 +1,7 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"title": "Command Code mods registry",
-	"description": "The curated layer behind commandcode.ai/mods. Packages published to npm with the `cmd-mod` keyword are listed automatically; this file adds git-only mods, richer metadata over npm entries (matched by `npm`), and the `hidden` list for moderation. The resolved list is served at https://commandcode.ai/mods.json.",
+	"description": "The reviewed list behind commandcode.ai/mods. Each npm or GitHub mod requires a registry entry; publishing to npm alone does not list a package. The `npm` field enables live metadata and downloads, and `hidden` excludes entries for moderation. The resolved list is served at https://commandcode.ai/mods.json.",
 	"type": "object",
 	"required": ["version", "mods"],
 	"properties": {
@@ -83,6 +83,10 @@
 					"official": {
 						"type": "boolean",
 						"description": "Maintained by the Command Code team."
+					},
+					"featured": {
+						"type": "boolean",
+						"description": "Pinned to the top of the hub. Maintainer-only."
 					},
 					"addedAt": {
 						"type": "string",

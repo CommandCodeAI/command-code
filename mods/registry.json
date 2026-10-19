@@ -4,6 +4,19 @@
 	"hidden": [],
 	"mods": [
 		{
+			"name": "cmd-mod-jev-nudge",
+			"source": "cmd-mod-jev-nudge",
+			"description": "Agents stop too early. At every stop this mod asks Jev whether a nudge would help, and keeps the agent going when work is left. It won't nudge when the agent is waiting on you.",
+			"author": { "name": "Ahmad Awais", "github": "ahmadawais" },
+			"repo": "https://github.com/CommandCodeAI/cmd-mod-jev-nudge",
+			"npm": "cmd-mod-jev-nudge",
+			"kinds": ["hook", "flag"],
+			"tags": ["jev", "stop-hook", "agent"],
+			"official": true,
+			"featured": true,
+			"addedAt": "2026-09-22"
+		},
+		{
 			"name": "cmd-mod-hi",
 			"source": "cmd-mod-hi",
 			"description": "Roasts you every time you greet your agent with \"hi\". One transformInput hook plus a renderer, and a /hi-stats command that tallies the damage.",
@@ -195,6 +208,166 @@
 				"session"
 			],
 			"addedAt": "2026-10-13"
+		},
+		{
+			"name": "commandcode-hud-zh",
+			"source": "Albert-Lsk/commandcode-hud-zh",
+			"description": "Chinese-language context HUD showing token usage, compaction health, large-result alerts, and session spend. Adapts to narrow terminals.",
+			"author": { "name": "ALSKai", "github": "Albert-Lsk" },
+			"repo": "https://github.com/Albert-Lsk/commandcode-hud-zh",
+			"kinds": ["command", "hook", "flag"],
+			"tags": ["hud", "context", "monitoring", "chinese"],
+			"addedAt": "2026-10-03"
+		},
+		{
+			"name": "cmd-mod-fuzzy-search",
+			"source": "cmd-mod-fuzzy-search",
+			"description": "Fast, frecency-ranked fuzzy file and content search backed by FFF",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-fuzzy-search",
+			"npm": "cmd-mod-fuzzy-search",
+			"kinds": [
+				"tool",
+				"command"
+			],
+			"tags": [
+				"search",
+				"files",
+				"fuzzy"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-lint-feedback",
+			"source": "cmd-mod-lint-feedback",
+			"description": "Run linters and type checkers after every edit and feed the problems back to the agent",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-lint-feedback",
+			"npm": "cmd-mod-lint-feedback",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"lint",
+				"diagnostics",
+				"typecheck"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-notify",
+			"source": "cmd-mod-notify",
+			"description": "Desktop notifications and sounds when the agent finishes, fails, or needs you",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-notify",
+			"npm": "cmd-mod-notify",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"notifications",
+				"sound",
+				"desktop"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-output-trimmer",
+			"source": "cmd-mod-output-trimmer",
+			"description": "Fewer tokens on tool output: rtk command rewriting and compaction of build, test, git, lint, and search output",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-output-trimmer",
+			"npm": "cmd-mod-output-trimmer",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"tokens",
+				"output",
+				"rtk"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-powerline-status",
+			"source": "cmd-mod-powerline-status",
+			"description": "A powerline-style status row for Command Code: model, effort, path, git, context, and tokens",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-powerline-status",
+			"npm": "cmd-mod-powerline-status",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"statusline",
+				"powerline",
+				"ui"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-rule-compaction",
+			"source": "cmd-mod-rule-compaction",
+			"description": "Compact long conversations by rules, with no model call, keeping the prompt cache intact",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rule-compaction",
+			"npm": "cmd-mod-rule-compaction",
+			"kinds": [
+				"tool",
+				"command",
+				"hook"
+			],
+			"tags": [
+				"compaction",
+				"context",
+				"tokens"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmd-mod-rules-warden",
+			"source": "cmd-mod-rules-warden",
+			"description": "Hold writes that break your project rules, and send unproven \"done\" claims back for a check",
+			"author": {
+				"name": "Ahmad Bilal",
+				"github": "ahmadbilaldev"
+			},
+			"repo": "https://github.com/ahmadbilaldev/cmd-mod-rules-warden",
+			"npm": "cmd-mod-rules-warden",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"rules",
+				"guardrails",
+				"verification"
+			],
+			"addedAt": "2026-10-20"
 		},
 		{
 			"name": "cmd-compaction-guard",
