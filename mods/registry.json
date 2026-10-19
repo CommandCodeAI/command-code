@@ -370,6 +370,28 @@
 			"addedAt": "2026-10-20"
 		},
 		{
+			"name": "cmd-compaction-guard",
+			"source": "aska-digital/cmd-compaction-guard",
+			"description": "Detects compaction-summary bloat in session transcripts (stacked summaries that compound until context explodes and every request 400s) and repairs it with /compact-repair.",
+			"author": {
+				"name": "Ahraz Arifuddin",
+				"github": "ahrazzle"
+			},
+			"repo": "https://github.com/aska-digital/cmd-compaction-guard",
+			"kinds": [
+				"hook",
+				"command",
+				"flag"
+			],
+			"tags": [
+				"context",
+				"compaction",
+				"session",
+				"repair"
+			],
+			"addedAt": "2026-10-08"
+		},
+		{
 			"name": "cmux-notify",
 			"source": "Hashimlokasher/cmd-mod-cmux-notify",
 			"description": "cmux notifications for Command Code: a banner when a turn finishes, and an alert when a permission prompt is waiting.",
