@@ -400,6 +400,135 @@
 			"kinds": ["hook"],
 			"tags": ["cmux", "notifications", "macos", "permissions"],
 			"addedAt": "2026-10-19"
+		},
+		{
+			"name": "cmd-footer",
+			"source": "@iaziz786/cmd-footer",
+			"description": "Command Code mod that puts cache hit ratio and decode throughput in the footer.",
+			"author": {
+				"name": "Mohammad Aziz",
+				"github": "iAziz786"
+			},
+			"repo": "https://github.com/iAziz786/cmd-footer",
+			"npm": "@iaziz786/cmd-footer",
+			"kinds": [
+				"hook",
+				"command"
+			],
+			"tags": [
+				"footer",
+				"cache",
+				"throughput"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cmdc-statusline",
+			"source": "cmdc-statusline",
+			"description": "A status line mod for Command Code (cmdc): model, gradient context bar, cache hit rate, session cost, output speed, sub-agent usage, session name and git state.",
+			"author": {
+				"name": "holtwood",
+				"github": "holtwood"
+			},
+			"repo": "https://github.com/holtwood/cmdc-statusline",
+			"npm": "cmdc-statusline",
+			"kinds": [
+				"hook",
+				"command",
+				"flag"
+			],
+			"tags": [
+				"statusline",
+				"context",
+				"cost"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "sabi-commandcode",
+			"source": "@vizuh/sabi-commandcode",
+			"description": "Sabi for Command Code: adaptive model, reasoning-effort and provider routing inside a Command Code trajectory, from the engine at @vizuh/sabi-router. One Sabi surface; the routing layer is the product.",
+			"author": {
+				"name": "vizuh",
+				"github": "vizuh"
+			},
+			"repo": "https://github.com/vizuh/sabi",
+			"npm": "@vizuh/sabi-commandcode",
+			"kinds": [
+				"hook"
+			],
+			"tags": [
+				"routing",
+				"models",
+				"effort"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "command-notify",
+			"source": "command-notify",
+			"description": "Desktop notifications for Command Code on macOS, Windows, and Linux (beta).",
+			"author": {
+				"name": "Mahmoud Bekheet",
+				"github": "M-Bekheet"
+			},
+			"repo": "https://github.com/M-Bekheet/command-notify",
+			"npm": "command-notify",
+			"kinds": [
+				"hook",
+				"command",
+				"flag"
+			],
+			"tags": [
+				"notifications",
+				"desktop"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "cost-tracker",
+			"source": "cost-tracker",
+			"description": "Real-time token cost, prompt cache savings, and context monitor for AI coding sessions",
+			"author": {
+				"name": "Azertyuiop442",
+				"github": "Azertyuiop442"
+			},
+			"repo": "https://github.com/Azertyuiop442/cost-tracker",
+			"npm": "cost-tracker",
+			"kinds": [
+				"hook",
+				"command"
+			],
+			"tags": [
+				"cost",
+				"tokens",
+				"cache"
+			],
+			"addedAt": "2026-10-20"
+		},
+		{
+			"name": "deepshrink",
+			"source": "deepshrink",
+			"description": "Content-addressable context store, recall tool, and compaction guard for AI coding agents",
+			"author": {
+				"name": "Azertyuiop442",
+				"github": "Azertyuiop442"
+			},
+			"repo": "https://github.com/Azertyuiop442/deepshrink",
+			"npm": "deepshrink",
+			"kinds": [
+				"tool",
+				"command",
+				"hook",
+				"renderer"
+			],
+			"tags": [
+				"context",
+				"compaction",
+				"recall",
+				"tokens"
+			],
+			"addedAt": "2026-10-20"
 		}
 	]
 }
