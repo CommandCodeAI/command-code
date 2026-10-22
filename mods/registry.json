@@ -529,6 +529,18 @@
 				"tokens"
 			],
 			"addedAt": "2026-10-20"
+		},
+{
+			"name": "cmd-taste-kit",
+			"source": "shashank-sn/cmd-taste-kit",
+			"description": "Guard and audit Command Code taste files: block hand edits, find duplicate, contradictory and stale learnings.",
+			"author": {
+				"name": "shashank sn",
+				"github": "shashank-sn"
+			},
+			"repo": "https://github.com/shashank-sn/cmd-taste-kit",
+			"kinds": ["hook", "command", "tool", "flag"],
+			"tags": ["taste", "memory", "audit", "guardrails"]
 		}
 	]
 }
