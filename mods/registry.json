@@ -530,7 +530,7 @@
 			],
 			"addedAt": "2026-10-20"
 		},
-{
+		{
 			"name": "cmd-taste-kit",
 			"source": "shashank-sn/cmd-taste-kit",
 			"description": "Guard and audit Command Code taste files: block hand edits, find duplicate, contradictory and stale learnings.",
