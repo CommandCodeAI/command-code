@@ -531,6 +531,127 @@
 			"addedAt": "2026-10-20"
 		},
 		{
+			"name": "cmd-taste-kit",
+			"source": "shashank-sn/cmd-taste-kit",
+			"description": "Guard and audit Command Code taste files: block hand edits, find duplicate, contradictory and stale learnings.",
+			"author": {
+				"name": "shashank sn",
+				"github": "shashank-sn"
+			},
+			"repo": "https://github.com/shashank-sn/cmd-taste-kit",
+			"kinds": ["hook", "command", "tool", "flag"],
+			"tags": ["taste", "memory", "audit", "guardrails"]
+		},
+		{
+			"name": "commandcode-token-metrics",
+			"source": "commandcode-token-metrics",
+			"npm": "commandcode-token-metrics",
+			"description": "Live tokens per second meter in the footer. Shows a VU graph, average, peak and time to first token, adds a summary row when each run ends, and has a /tps command. Every part can be tuned with mod options.",
+			"author": {
+				"name": "Jash Jacob",
+				"github": "jashjacob"
+			},
+			"repo": "https://github.com/jashjacob/commandcode-token-metrics",
+			"kinds": [
+				"flag",
+				"command",
+				"renderer"
+			],
+			"tags": [
+				"metrics",
+				"throughput",
+				"status-line"
+			],
+			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "cmd-threadline",
+			"source": "@mdeloughry/cmd-threadline",
+			"npm": "@mdeloughry/cmd-threadline",
+			"description": "Keeps a short orientation card in the feed: goal, just did, next, needs you. Built for dyslexic developers. The agent updates it through a tool, and /threadline commands let you park and pop tangents.",
+			"author": {
+				"name": "mdeloughry",
+				"github": "mdeloughry"
+			},
+			"repo": "https://github.com/mdeloughry/cmd-threadline",
+			"kinds": [
+				"tool",
+				"hook",
+				"command",
+				"renderer"
+			],
+			"tags": [
+				"accessibility",
+				"dyslexia",
+				"productivity",
+				"orientation"
+			],
+			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "cmd-notify",
+			"source": "cmd-notify",
+			"npm": "cmd-notify",
+			"description": "Pings you when a turn ends, the agent needs approval, or a run finishes or fails. Each ping is a TUI notice plus a Linux desktop notification with a short output summary. No macOS desktop alerts yet.",
+			"author": {
+				"name": "Shanwis",
+				"github": "Shanwis"
+			},
+			"repo": "https://github.com/Shanwis/cmd-notify",
+			"kinds": [
+				"hook"
+			],
+			"tags": [
+				"notifications",
+				"desktop",
+				"linux"
+			],
+			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "codegraph",
+			"source": "@ultra-cmd/mod-codegraph",
+			"npm": "@ultra-cmd/mod-codegraph",
+			"description": "Three read only tools (explore, node, status) that query a local CodeGraph index through the codegraph CLI. They run without a permission prompt and stay available in plan mode. Needs the codegraph CLI on PATH.",
+			"author": {
+				"name": "Toan Nguyen",
+				"github": "nntoan"
+			},
+			"repo": "https://github.com/nntoan/proflow",
+			"kinds": [
+				"tool"
+			],
+			"tags": [
+				"codegraph",
+				"code-search",
+				"plan-mode"
+			],
+			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "proflow",
+			"source": "@ultra-cmd/proflow",
+			"npm": "@ultra-cmd/proflow",
+			"description": "A guard that blocks or asks before destructive shell commands, a footer with cache hit rate, turn cost and the next lifecycle step, and a /proflow command. Can continue a stopped run up to two more turns.",
+			"author": {
+				"name": "Toan Nguyen",
+				"github": "nntoan"
+			},
+			"repo": "https://github.com/nntoan/proflow",
+			"kinds": [
+				"hook",
+				"command",
+				"flag"
+			],
+			"tags": [
+				"guard",
+				"safety",
+				"footer",
+				"workflow"
+			],
+			"addedAt": "2026-10-23"
+		},
+		{
 			"name": "kujo-command-bridge",
 			"source": "kujolang/kujo-cmd",
 			"description": "Kujo setup and session status, metadata-only Watchdog correlation, and a one-shot continuation after failed Kujo calls. Configure the local MCP integration separately for repository checks, approvals, and receipts.",
