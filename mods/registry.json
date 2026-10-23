@@ -652,8 +652,9 @@
 			"addedAt": "2026-10-23"
 		},
 		{
-			"name": "kujo-command-bridge",
-			"source": "kujolang/kujo-cmd",
+			"name": "kujo-cmd",
+			"source": "@kujolang/kujo-cmd",
+			"npm": "@kujolang/kujo-cmd",
 			"description": "Kujo setup and session status, metadata-only Watchdog correlation, and a one-shot continuation after failed Kujo calls. Configure the local MCP integration separately for repository checks, approvals, and receipts.",
 			"author": {
 				"name": "Robert DeVore",
