@@ -653,7 +653,8 @@
 		},
 		{
 			"name": "token-metrics",
-			"source": "gnahiak2/token-metrics",
+			"source": "token-metrics",
+			"npm": "token-metrics",
 			"description": "Live estimated tokens/second and time to first token, with weighted session and lifetime averages, per-model breakdowns, and a persistent cross-session ledger.",
 			"author": { "name": "Kaihang", "github": "gnahiak2" },
 			"repo": "https://github.com/gnahiak2/token-metrics",
