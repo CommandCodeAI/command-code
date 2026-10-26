@@ -650,6 +650,30 @@
 				"workflow"
 			],
 			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "righthand",
+			"source": "@agirahman/righthand",
+			"npm": "@agirahman/righthand",
+			"description": "Specialist agent personas and multi-agent orchestration engine for Herdr workspaces across coding harnesses.",
+			"author": {
+				"name": "agi",
+				"github": "agirahman"
+			},
+			"repo": "https://github.com/agirahman/righthand",
+			"kinds": [
+				"command",
+				"hook",
+				"flag"
+			],
+			"tags": [
+				"herdr",
+				"personas",
+				"multi-agent",
+				"orchestration",
+				"addyosmani"
+			],
+			"addedAt": "2026-10-26"
 		}
 	]
 }
