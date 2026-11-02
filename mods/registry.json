@@ -652,7 +652,7 @@
 			"addedAt": "2026-10-23"
 		},
 		{
-			"name": "cmd-metrics",
+			"name": "status-metrics",
 			"source": "malikshi/cmd-metrics",
 			"description": "Per-request TPS, TTFT, duration and prompt-cache hit rate on the spinner, session averages under the prompt, sub-agent coverage, and a /metrics pane. Figures survive a reload.",
 			"author": {
