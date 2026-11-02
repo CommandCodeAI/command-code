@@ -650,6 +650,31 @@
 				"workflow"
 			],
 			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "atelier",
+			"source": "aliarain/atelier",
+			"description": "A creative studio in your agent. Designs images, records voiceovers and cuts videos and motion graphics on your machine, checks every render with real measurements, and shows the work in a live gallery. macOS, needs Chrome and ffmpeg.",
+			"author": {
+				"name": "Ali Arain",
+				"github": "aliarain"
+			},
+			"repo": "https://github.com/aliarain/atelier",
+			"kinds": [
+				"tool",
+				"command",
+				"hook",
+				"flag",
+				"renderer"
+			],
+			"tags": [
+				"design",
+				"video",
+				"voice",
+				"motion",
+				"creative"
+			],
+			"addedAt": "2026-11-03"
 		}
 	]
 }
