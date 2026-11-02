@@ -650,6 +650,26 @@
 				"workflow"
 			],
 			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "status-metrics",
+			"source": "malikshi/cmd-metrics",
+			"description": "Per-request TPS, TTFT, duration and prompt-cache hit rate on the spinner, session averages under the prompt, sub-agent coverage, and a /metrics pane. Figures survive a reload.",
+			"author": {
+				"name": "Ibnu Malik Al Kusaeri",
+				"github": "malikshi"
+			},
+			"repo": "https://github.com/malikshi/cmd-metrics",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"metrics",
+				"throughput",
+				"observability"
+			],
+			"addedAt": "2026-11-02"
 		}
 	]
 }
