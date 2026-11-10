@@ -650,6 +650,28 @@
 				"workflow"
 			],
 			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "llmchess",
+			"source": "vipulgupta2048/token-chess",
+			"description": "Play chess against your session's model, or a built-in engine, in a pane beside the prompt while the agent works. Arrow-key moves, a one-line comment after each reply, blunder callouts. Zero dependencies.",
+			"author": {
+				"name": "Vipul Gupta",
+				"github": "vipulgupta2048"
+			},
+			"repo": "https://github.com/vipulgupta2048/token-chess",
+			"kinds": [
+				"command",
+				"renderer",
+				"hook"
+			],
+			"tags": [
+				"game",
+				"chess",
+				"llm",
+				"pane"
+			],
+			"addedAt": "2026-11-10"
 		}
 	]
 }
