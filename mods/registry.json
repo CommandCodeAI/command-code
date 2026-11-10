@@ -650,6 +650,29 @@
 				"workflow"
 			],
 			"addedAt": "2026-10-23"
+		},
+		{
+			"name": "llmchess",
+			"source": "cmd-mod-llmchess",
+			"npm": "cmd-mod-llmchess",
+			"description": "Play chess against an LLM right in Command Code while the agent is working on your task. Zero dependencies.",
+			"author": {
+				"name": "Vipul Gupta",
+				"github": "vipulgupta2048"
+			},
+			"repo": "https://github.com/vipulgupta2048/token-chess",
+			"kinds": [
+				"command",
+				"renderer",
+				"hook"
+			],
+			"tags": [
+				"game",
+				"chess",
+				"llm",
+				"pane"
+			],
+			"addedAt": "2026-11-10"
 		}
 	]
 }
