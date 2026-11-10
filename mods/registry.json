@@ -653,7 +653,8 @@
 		},
 		{
 			"name": "llmchess",
-			"source": "vipulgupta2048/token-chess",
+			"source": "cmd-mod-llmchess",
+			"npm": "cmd-mod-llmchess",
 			"description": "Play chess against your session's model, or a built-in engine, in a pane beside the prompt while the agent works. Arrow-key moves, a one-line comment after each reply, blunder callouts. Zero dependencies.",
 			"author": {
 				"name": "Vipul Gupta",
