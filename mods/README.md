@@ -13,7 +13,9 @@ an npm review or a website deployment.
 ## Add your mod
 
 Append one entry to the `mods` array in [`registry.json`](./registry.json). Editors validate it
-against [`registry.schema.json`](./registry.schema.json).
+against [`registry.schema.json`](./registry.schema.json). Pull requests also run the
+dependency-free validator in [`validate_registry.mjs`](./validate_registry.mjs), which checks
+the checked-in registry and catches duplicate names before they reach the hub.
 
 ```json
 {
