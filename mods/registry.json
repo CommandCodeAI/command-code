@@ -673,6 +673,26 @@
 				"pane"
 			],
 			"addedAt": "2026-11-10"
+		},
+		{
+			"name": "cmd-mod-commit",
+			"source": "cmd-mod-commit",
+			"description": "A /commit command that commits in small incremental stages with Commitizen-style messages, starting from 'initial commit'.",
+			"author": {
+				"name": "guruela",
+				"github": "guruela"
+			},
+			"repo": "https://github.com/guruela/cmd-mod-commit",
+			"npm": "cmd-mod-commit",
+			"kinds": [
+				"command"
+			],
+			"tags": [
+				"git",
+				"commit",
+				"productivity"
+			],
+			"addedAt": "2026-11-11"
 		}
 	]
 }
