@@ -673,6 +673,29 @@
 				"pane"
 			],
 			"addedAt": "2026-11-10"
+		},
+		{
+			"name": "cmd-mod-commit",
+			"source": "cmd-mod-commit",
+			"description": "Commits in small incremental stages with Commitizen-style messages, starting from initial commit; guards secrets, confirms destructive git commands.",
+			"author": {
+				"name": "Gurucharan Shivakumar",
+				"github": "guruela"
+			},
+			"repo": "https://github.com/guruela/cmd-mod-commit",
+			"npm": "cmd-mod-commit",
+			"kinds": [
+				"command",
+				"hook",
+				"flag"
+			],
+			"tags": [
+				"git",
+				"commit",
+				"conventional-commits",
+				"safety"
+			],
+			"addedAt": "2026-11-12"
 		}
 	]
 }
