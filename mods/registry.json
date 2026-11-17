@@ -673,6 +673,29 @@
 				"pane"
 			],
 			"addedAt": "2026-11-10"
+		},
+		{
+			"name": "cmd-mod-toks",
+			"source": "cmd-mod-toks",
+			"npm": "cmd-mod-toks",
+			"description": "Honest tokens-per-second meter: samples absolute message_update counts so retries and stream fragmentation cannot skew it, counts CJK as one token, and calibrates against the provider's own outputTokens.",
+			"author": {
+				"name": "ArcticPole04",
+				"github": "ArcticPole04"
+			},
+			"repo": "https://github.com/ArcticPole04/cmd-mod-toks",
+			"kinds": [
+				"command",
+				"flag",
+				"renderer"
+			],
+			"tags": [
+				"metrics",
+				"throughput",
+				"status-line",
+				"tokens"
+			],
+			"addedAt": "2026-11-17"
 		}
 	]
 }
