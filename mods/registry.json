@@ -673,6 +673,25 @@
 				"pane"
 			],
 			"addedAt": "2026-11-10"
+		},
+		{
+			"name": "cmd-mod-trevor",
+			"source": "ObaidNadeem/cmd-mod-trevor",
+			"description": "Your agent, but it talks like Trevor: volatile, loyal, bleeped. /trevor sets a 1-5 wanted level shown in the footer. Code, diffs and commits stay plain and professional.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mod-trevor",
+			"kinds": [
+				"hook",
+				"command"
+			],
+			"tags": [
+				"fun",
+				"persona"
+			],
+			"addedAt": "2026-11-18"
 		}
 	]
 }
