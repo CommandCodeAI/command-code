@@ -692,6 +692,28 @@
 				"persona"
 			],
 			"addedAt": "2026-11-18"
+		},
+		{
+			"name": "clacketier",
+			"source": "cmd-mod-clacketier",
+			"npm": "cmd-mod-clacketier",
+			"description": "Real Cherry MX Blue, Brown and Red keyboard recordings right inside your terminal. Low-latency player on macOS; on Linux and Windows clicks trail fast typing a little.",
+			"author": {
+				"name": "Vipul Gupta",
+				"github": "vipulgupta2048"
+			},
+			"repo": "https://github.com/vipulgupta2048/clacketier",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"fun",
+				"sound",
+				"typing",
+				"keyboard"
+			],
+			"addedAt": "2026-11-27"
 		}
 	]
 }
