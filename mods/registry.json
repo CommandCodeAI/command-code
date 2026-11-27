@@ -692,6 +692,28 @@
 				"persona"
 			],
 			"addedAt": "2026-11-18"
+		},
+		{
+			"name": "clacketier",
+			"source": "clacketier",
+			"npm": "clacketier",
+			"description": "Real Cherry MX Blue, Brown and Red keyboard recordings under every key you type, a few milliseconds after the key. /clacketier picks the switch and volume.",
+			"author": {
+				"name": "Vipul Gupta",
+				"github": "vipulgupta2048"
+			},
+			"repo": "https://github.com/vipulgupta2048/clacketier",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"fun",
+				"sound",
+				"typing",
+				"keyboard"
+			],
+			"addedAt": "2026-11-27"
 		}
 	]
 }
