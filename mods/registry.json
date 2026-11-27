@@ -695,9 +695,9 @@
 		},
 		{
 			"name": "clacketier",
-			"source": "clacketier",
-			"npm": "clacketier",
-			"description": "Real Cherry MX Blue, Brown and Red keyboard recordings under every key you type, a few milliseconds after the key. /clacketier picks the switch and volume.",
+			"source": "cmd-mod-clacketier",
+			"npm": "cmd-mod-clacketier",
+			"description": "Real Cherry MX Blue, Brown and Red keyboard recordings right inside your terminal. Low-latency player on macOS; on Linux and Windows clicks trail fast typing a little.",
 			"author": {
 				"name": "Vipul Gupta",
 				"github": "vipulgupta2048"
