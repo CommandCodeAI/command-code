@@ -696,6 +696,45 @@
 				"tokens"
 			],
 			"addedAt": "2026-11-17"
+			"name": "cmd-mod-trevor",
+			"source": "ObaidNadeem/cmd-mod-trevor",
+			"description": "Your agent, but it talks like Trevor: volatile, loyal, bleeped. /trevor sets a 1-5 wanted level shown in the footer. Code, diffs and commits stay plain and professional.",
+			"author": {
+				"name": "Obaid Nadeem",
+				"github": "ObaidNadeem"
+			},
+			"repo": "https://github.com/ObaidNadeem/cmd-mod-trevor",
+			"kinds": [
+				"hook",
+				"command"
+			],
+			"tags": [
+				"fun",
+				"persona"
+			],
+			"addedAt": "2026-11-18"
+		},
+		{
+			"name": "clacketier",
+			"source": "cmd-mod-clacketier",
+			"npm": "cmd-mod-clacketier",
+			"description": "Real Cherry MX Blue, Brown and Red keyboard recordings right inside your terminal. Low-latency player on macOS; on Linux and Windows clicks trail fast typing a little.",
+			"author": {
+				"name": "Vipul Gupta",
+				"github": "vipulgupta2048"
+			},
+			"repo": "https://github.com/vipulgupta2048/clacketier",
+			"kinds": [
+				"command",
+				"hook"
+			],
+			"tags": [
+				"fun",
+				"sound",
+				"typing",
+				"keyboard"
+			],
+			"addedAt": "2026-11-27"
 		}
 	]
 }
